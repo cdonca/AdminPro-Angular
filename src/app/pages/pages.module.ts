@@ -16,6 +16,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
 
 // Temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +26,9 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromisesComponent,
+        RxjsComponent
     ],
     exports: [
         PagesComponent,        
@@ -35,7 +39,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
     imports: [
         SharedModule,
         PAGES_ROUTES,
-        FormsModule,
+        FormsModule
     ]
 })
 
